@@ -1,7 +1,5 @@
 package domain
 
-import "gitlab.internal.cloud.payly.com.br/microservices/chassis/events"
-
 type Entity struct {
 	id              string
 	eventDispatcher events.IEventDispatcher
