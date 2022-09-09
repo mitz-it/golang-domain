@@ -1,5 +1,7 @@
 package domain
 
+import events "github.com/mitz-it/golang-events"
+
 type Entity struct {
 	id              string
 	eventDispatcher events.IEventDispatcher
